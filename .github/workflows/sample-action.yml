@@ -1,0 +1,10 @@
+name: 'my action public step'
+
+description: 'TEST'
+
+jobs:
+  remote-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: calling remote action
+        uses: mmarinel/Test_MyAction
