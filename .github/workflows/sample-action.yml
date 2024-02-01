@@ -2,6 +2,8 @@ name: 'my action public step'
 
 description: 'TEST'
 
+on: push
+
 jobs:
   remote-hello-world:
     runs-on: ubuntu-latest
