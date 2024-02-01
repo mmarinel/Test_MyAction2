@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: calling remote action
         uses: mmarinel/Test_MyAction@v1
+        with:
+          who-to-greet: 'Elrond'
